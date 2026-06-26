@@ -16,8 +16,13 @@ cal_kda(10, 2, 7)
 
 def cal_kda(*cal_average_gold) :
   for gold in cal_average_gold :
+   sum(gold)/len(gold)
    print("{}".format(gold),end = "")
-   sum(gold)
 
 cal_kda(12000, 15000, 18000)
 print(cal_kda)
+
+def cal_average_gold(*no):
+  avg = sum(no)/len(no)
+  print(avg)
+cal_average_gold(12000,15000,18000)
