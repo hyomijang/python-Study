@@ -41,6 +41,7 @@ House3 = House("송파", "빌라", "월세", "500/50", "2000년")
 houses.append(House3)
 House3.show_detail()
 
+
 print(f"총 {len(houses)}매물이 있습니다.")
 
 
