@@ -19,6 +19,9 @@ for i in range(1,51):
     data_handdle.write("- 이름 : \n")
     data_handdle.write("- 업무 요약 : \n")
 
+for i in range(1,51):
+  with open(f"{i}주차.txt","w",encoding="utf-8") as file_handle:
+    file_handle.write(f"{i} 주차 주간보고\n부서 : \n이름 : \n업무 요약 : \n")
 
 # with open ("data.txt" , "r", "encoding = UTF -8" ) as data_handdle :
 #   data_handdle.read()

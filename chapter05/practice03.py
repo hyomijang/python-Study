@@ -36,11 +36,16 @@ from random import *
 # #for coffe in participant : 
 
 
+# participant = list(range(1,21))
+# #shuffle(participant)
+# lucky_one = sample(participant, 1)
+# selected_users = sample(participant, 3)
+# print(f"--당첨자 발표 -- \n 치킨 당첨자 :{str(lucky_one)}\n 커피 당첨자 :{str(selected_users)} \n-- 축하합니다 \n")
+
 participant = list(range(1,21))
-shuffle(participant)
 lucky_one = sample(participant, 1)
 selected_users = sample(participant, 3)
-print(f"--당첨자 발표 -- \n 치킨 당첨자 :{str(lucky_one)}\n 커피 당첨자 :{str(selected_users)} \n-- 축하합니다 \n")
+print(f"--당첨자 발표 -- \n 치킨 당첨자 :{str(lucky_one )}\n 커피 당첨자 :{str(selected_users)} \n-- 축하합니다 \n")
 
 
 
